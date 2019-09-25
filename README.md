@@ -10,5 +10,13 @@ git push -u origin master
  https://github.com/parcel-bundler/parcel/issues/2597#issuecomment-464489516
 
  
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148764400-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag(){dataLayer.push(arguments);} // <-- note `window.gtag =`
+    gtag('js', new Date());
 
+    gtag('config', 'UA-148764400-1');
+  </script>
   
