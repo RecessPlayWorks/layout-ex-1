@@ -1,22 +1,5 @@
-# react-template
-parcel, prettier
+# layout-ex1 sandbox site
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9953d8ec-d48d-4952-a393-8987d91192bc/deploy-status)](https://app.netlify.com/sites/rpw-sandbox1/deploys)
 
-Course Site:
-https://btholt.github.io/complete-intro-to-react-v5/
-
-
-begun here:
-https://frontendmasters.com/courses/complete-react-v5/reusable-components/
-
-lint/format from package.json
-(NOTE: lint script directory has no space avail)
-
-```json
-...
-  "scripts": {
-    "format": "prettier src/**/* .{js, html} --write",
-    "lint": "eslint \"**/*.{js,jsx}\" --quiet"
-...
-```
 git remote add origin git@github-recess:RecessPlayWorks/layout-ex-1.git
 git push -u origin master
