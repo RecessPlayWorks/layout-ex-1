@@ -3,3 +3,12 @@
 
 git remote add origin git@github-recess:RecessPlayWorks/layout-ex-1.git
 git push -u origin master
+
+    
+    /*solution for GA with parcel bundler */
+
+ https://github.com/parcel-bundler/parcel/issues/2597#issuecomment-464489516
+
+ 
+
+  
