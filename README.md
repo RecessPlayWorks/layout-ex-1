@@ -18,4 +18,5 @@ lint/format from package.json
     "lint": "eslint \"**/*.{js,jsx}\" --quiet"
 ...
 ```
-test
+git remote add origin git@github-recess:RecessPlayWorks/layout-ex-1.git
+git push -u origin master

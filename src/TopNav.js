@@ -12,8 +12,22 @@ const StyledTopNav = styled.nav`
     a {
       transition: all 0.3s ease-in-out;
       font-size: 1.3rem;
+      text-decoration: none;
+      color: #999;
+      &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width .2s ease-in-out;
+      }
       &:hover {
-        color: #0088fe;
+        color: #000;
+      }
+      &:hover::after {
+        width: 100%;
+        transition: width .2s ease-in-out;
       }
     }
    }
