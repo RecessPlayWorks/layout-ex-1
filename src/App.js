@@ -4,12 +4,14 @@ import ReactGA from 'react-ga';
 import Header from './Header';
 
 
-
-function initializeReactGA() {
-  ReactGA.initialize("UA-148764400-1");
-  ReactGA.pageview('/homepage');
+function initializedAnalytics() {
+  const TrackingID = "UA-148764400-1";
+  ReactGA.initialize(`${TrackingID}`);
+  ReactGA.pageview("/Homepage");
 }
+
 const App = () => {
+  initializedAnalytics();
   return (
     <div className="app-js-div">
       <Header/>
