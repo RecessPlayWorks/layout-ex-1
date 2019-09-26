@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import ReactGA from 'react-ga';
 import Header from './Header';
+import Main from './Main';
 
 
 function initializedAnalytics() {
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <div className="app-js-div">
       <Header/>
+      <Main/>
     </div>
   );
 };

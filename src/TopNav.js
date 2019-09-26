@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-// import TopNav from "./TopNav";
 
 const StyledTopNav = styled.nav`
  & .nav-links {
@@ -13,7 +12,7 @@ const StyledTopNav = styled.nav`
       transition: all 0.3s ease-in-out;
       font-size: 1.3rem;
       text-decoration: none;
-      color: #999;
+      color: #4b4b4b;
       &::after {
         content: '';
         display: block;
@@ -39,11 +38,11 @@ const TopNav = () => {
   return (
     <StyledTopNav>
       <ul className="nav-links">
-        <li><a href="#">WorkSpace</a></li>
-        <li><a href="#">PlaySpace</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+        <li><a href="#">Menu 4</a></li>
+        <li><a href="#">Menu 5</a></li>
       </ul>
     </StyledTopNav>
   );
