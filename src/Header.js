@@ -52,9 +52,15 @@ const Header = () => {
       <h1 className="text-logo">RecessPlayWorks</h1>
       <TopNav />
       <TopRTCTAs/>
-        <a className="cta-logo" href="#"><img src="./img/rpwlogo.png" alt="RecessPlayWorks Logo" /></a>
+        <a className="cta-logo" href="#"><img src="https://www.dropbox.com/s/2vmz8q7f8wzd04z/rpwlogo.png?raw=1" alt="RecessPlayWorks Logo" /></a>
     </StyledHeader>
   );
 };
 
 export default Header;
+
+/*
+https://www.dropbox.com/s/2vmz8q7f8wzd04z/rpwlogo.png?raw=1
+
+https://www.dropbox.com/s/1ta1hqvv2eb5dgh/windows1_max.jpg?raw=1
+*/

@@ -36,7 +36,7 @@ const Main = () => {
     <StyledMain>
       <div className="right-panel">
         <img
-        src="./img/windows1_max.jpg"
+        src="ttps://www.dropbox.com/s/1ta1hqvv2eb5dgh/windows1_max.jpg?raw=1"
         alt="main lounge" />
       </div>
       <aside className="left-panel-bot">
